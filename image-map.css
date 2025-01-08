@@ -1,0 +1,75 @@
+body{
+    background-image: url('fire.jpg');
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#orig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    display:flex;
+}
+
+#header{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(140, 101, 101);
+     margin-top: 50px;
+     margin-left: 70px;
+     animation-name: box;     
+     animation-duration: 10s;
+     border-radius: 100%;  
+     transition: height 10s,width 10s;
+     transition-delay: 5s;  
+}
+
+
+
+@keyframes box{
+    0%{
+        background-color: red;
+    } 
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: beige;
+    }
+}
+
+#quo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: whitesmoke;
+    margin-top: 90px;
+    margin-left: 25px;
+    position:absolute;
+}
+#img{
+    margin-top: 100px;
+    margin-left: 290px;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#text{
+   
+    margin-right: 650px;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
